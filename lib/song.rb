@@ -37,8 +37,8 @@ class Song
   
   def self.artist_count 
     artist_songs = {} 
-    @@artist.each do |key|
-      artist_songs[key] ||= @@artist.find_all{|e| e == key}.count 
+    @@artists.each do |key|
+      artist_songs[key] ||= @@artists.find_all{|e| e == key}.count 
     end 
     artist_songs 
   end 
