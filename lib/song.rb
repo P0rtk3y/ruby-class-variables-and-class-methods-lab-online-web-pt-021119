@@ -33,5 +33,6 @@ class Song
       each_count[key] ||= @@genres.find_all{|e| e == key}.count 
     end 
     each_count 
+    binding.pry
   end 
 end 
