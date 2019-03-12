@@ -31,6 +31,7 @@ class Song
     each_count = {}
     @@genres.each do |key| 
       each_count[key] ||= @@genres.find_all{|e| e == key}.count 
+      binding.pry
     end 
     each_count 
 end 
