@@ -34,4 +34,5 @@ class Song
       binding.pry
     end 
     each_count 
+  end 
 end 
