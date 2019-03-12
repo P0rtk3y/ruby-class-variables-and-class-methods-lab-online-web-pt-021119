@@ -41,5 +41,5 @@ class Song
       artist_songs[key] ||= @@artist.find_all{|e| e == key}.count 
     end 
     artist_songs 
-  
+  end 
 end 
