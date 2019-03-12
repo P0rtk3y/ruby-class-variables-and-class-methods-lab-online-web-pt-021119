@@ -28,10 +28,13 @@ class Song
   end 
   
   def self.genre_count 
-    each_count = {}
+    each_count = {} #stores count of each genre 
     @@genres.each do |key| 
       each_count[key] ||= @@genres.find_all{|e| e == key}.count 
     end 
     each_count 
   end 
+  
+  def 
+  
 end 
